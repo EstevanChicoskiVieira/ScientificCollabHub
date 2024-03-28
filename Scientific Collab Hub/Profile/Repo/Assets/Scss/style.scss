@@ -1,0 +1,57 @@
+@import url(../../../Assets/Css/global.css);
+
+$color: #5186d4;
+$selection: #5185d486;
+$title: #000000;
+$text: #333333;
+
+main {
+    width: 100%;
+    height: auto;
+    padding: 8vh 0vh 0 8vh;
+
+    .repository-info {
+        width: 100%;
+        height: auto;
+        padding: 5vh 0 2vh 0;
+        display: grid;
+        place-items: center;
+
+        .content {
+            width: 80%;
+            height: auto;
+            padding: 5vh;
+            box-shadow: 0 0 10px #0000007c;
+            border-radius: 10px;
+
+            h2 {
+                padding-bottom: 1vh;
+            }
+        }
+    }
+
+    .info {
+        width: 100%;
+        height: auto;
+        display: grid;
+        place-items: center;
+        padding: 5vh 0 5vh 0;
+
+        .content {
+            width: 80%;
+            height: auto;
+            padding: 5vh;
+            box-shadow: 0 0 10px #0000007c;
+            border-radius: 10px;
+
+            h3 {
+                padding-bottom: 1vh;
+            }
+
+            p {
+                padding-bottom: 5vh;
+                text-align: justify;
+            }
+        }
+    }
+}

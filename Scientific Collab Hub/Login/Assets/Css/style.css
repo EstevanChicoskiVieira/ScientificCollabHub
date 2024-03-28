@@ -1,0 +1,201 @@
+@import url(../../../Assets/Css/global.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(156deg, rgb(26, 101, 212) 0%, rgb(81, 134, 212) 50%, rgb(131, 172, 232) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #registro {
+  display: flex;
+}
+main #login {
+  display: none;
+}
+main input {
+  padding: 1.3vh;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  border-bottom: 1px solid #5186d4;
+  font-size: 10pt;
+  font-family: "Montserrat", sans-serif;
+}
+main inputtextarea:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+main input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+main .registro {
+  width: 32vw;
+  height: 75vh;
+  background-color: rgba(0, 0, 0, 0.7333333333);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3vh;
+  padding: 3vh;
+}
+main .registro .perfil {
+  width: 100%;
+  height: 20%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  gap: 1vh;
+}
+main .registro .perfil .foto {
+  width: 10vh;
+  height: 10vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50%;
+}
+main .registro .perfil .foto input {
+  opacity: 0;
+  cursor: pointer;
+  width: 100px;
+  padding: 5vh;
+}
+main .registro .linha1 {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+main .registro .linha2 {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+main .registro .linha3 {
+  width: 100%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .registro .linha3 input {
+  width: 85%;
+}
+main .registro .linha4 {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 0 4.1vh 0 4.5vh;
+  color: #fff;
+  gap: 1vh;
+  font-size: 10pt;
+}
+main .registro .button {
+  width: 100%;
+  height: 5%;
+  display: grid;
+  place-items: center;
+}
+main .registro .button input {
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #5186d4;
+  padding: 1.8vh;
+  width: 8vw;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+main .registro .button input:hover {
+  background-color: #78a1df;
+}
+main .registro .login {
+  width: 100%;
+  height: 5%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+main .registro .login a {
+  color: #5186d4;
+  cursor: pointer;
+}
+main .logar {
+  width: 32vw;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.7333333333);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  padding: 3vh;
+}
+main .logar .logo {
+  width: 100%;
+  height: 22%;
+  display: grid;
+  place-items: center;
+}
+main .logar .email {
+  width: 100%;
+  height: 10%;
+  display: grid;
+  place-items: center;
+}
+main .logar .email input {
+  width: 85%;
+}
+main .logar .senha {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+}
+main .logar .bota {
+  width: 100%;
+  height: 5%;
+  display: grid;
+  place-items: center;
+}
+main .logar .bota input {
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 1.7vh;
+  width: 18vh;
+  background-color: #5186d4;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+main .logar .bota input:hover {
+  background-color: #668eca;
+}
+main .logar .far {
+  width: 100%;
+  height: 5%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+main .logar .far a {
+  color: rgba(81, 133, 212, 0.8901960784);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

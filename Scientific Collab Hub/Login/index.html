@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SCHub</title>
+        <link rel="shortcut icon" type="imagex/png" href="../Assets/Imgs/icon.png">
+        <link rel="stylesheet" href="./Assets/Css/style.css">
+
+        <style>
+            .registro .perfil .foto{
+                background: url(./Assets/Imgs/profile.jpg);
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <form id="registro" class="registro" action="">
+                <div class="perfil">
+                    <div class="foto" id="perfilF">
+                        <input id="foto" type="file">
+                    </div>
+                    <p>Escolha uma foto de perfil</p>
+                </div>
+                <div class="linha1">
+                    <input type="text" placeholder="Nome">
+                    <input type="text" placeholder="Nome de usuário">
+                </div>
+                <div class="linha2">
+                    <input id="senha" type="password" placeholder="Senha">
+                    <input id="senha2" type="password" placeholder="Redigite a sua senha">
+                </div>
+                <div class="linha3">
+                    <input type="email" placeholder="digite o seu e-mail">
+                </div>
+                <div class="linha4">
+                    Data de nascimento:
+                    <input type="date" name="" id="">
+                </div>
+                <div class="login">
+                    <p>Já possuí uma conta? <a id="fazer">Faça login!</a></p>
+                </div>
+                <div class="button">
+                    <input  type="submit" value="Registrar">
+                </div>
+            </form>
+
+            <form id="login" class="logar" action="">
+                <div class="logo">
+                    <img src="../Assets/Imgs/icon.png" width="70px">
+                </div>
+                <div class="email">
+                    <input type="text" placeholder="E-mail ou nome de usuário">
+                </div>
+                <div class="senha">
+                    <input type="password" placeholder="Digite a sua senha">
+                    <input type="password" placeholder="Redigite a sua senha">
+                </div>
+                <div class="far">
+                    <p>Ainda não tem uma conta? <a id="regis">Faça o seu registro!</a></p>
+                </div>
+                <div class="bota">
+                    <input type="submit" value="Logar">
+                </div>
+            </form>
+        </main>
+        <script>
+           const link1 = document.getElementById('fazer')
+           const link2 = document.getElementById('regis')
+
+           const registro = document.getElementById('registro')
+           const login = document.getElementById('login')
+
+           link1.addEventListener('click', () => {
+                registro.style.display = 'none'
+                login.style.display = 'flex'
+           })
+
+           link2.addEventListener('click', () => {
+                registro.style.display = 'flex'
+                login.style.display = 'none'
+           })
+        </script>
+    </body>
+</html>

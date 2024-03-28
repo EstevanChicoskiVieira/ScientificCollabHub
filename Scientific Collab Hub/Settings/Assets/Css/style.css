@@ -1,0 +1,31 @@
+@import url(../../../Assets/Css/global.css);
+main {
+  width: 100%;
+  height: auto;
+  padding: 8vh 0vh 0 8vh;
+}
+main .container {
+  width: 100%;
+  height: 92vh;
+  display: grid;
+  place-items: center;
+  background-color: blue;
+}
+main .container .content {
+  width: 90%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+}
+main .container .content .menu {
+  width: 30%;
+  height: 100%;
+  background-color: red;
+}
+main .container .content .content {
+  width: 70%;
+  height: 100%;
+  background-color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

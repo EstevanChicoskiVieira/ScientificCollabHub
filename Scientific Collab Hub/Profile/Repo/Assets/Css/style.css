@@ -1,0 +1,46 @@
+@import url(../../../Assets/Css/global.css);
+main {
+  width: 100%;
+  height: auto;
+  padding: 8vh 0vh 0 8vh;
+}
+main .repository-info {
+  width: 100%;
+  height: auto;
+  padding: 5vh 0 2vh 0;
+  display: grid;
+  place-items: center;
+}
+main .repository-info .content {
+  width: 80%;
+  height: auto;
+  padding: 5vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4862745098);
+  border-radius: 10px;
+}
+main .repository-info .content h2 {
+  padding-bottom: 1vh;
+}
+main .info {
+  width: 100%;
+  height: auto;
+  display: grid;
+  place-items: center;
+  padding: 5vh 0 5vh 0;
+}
+main .info .content {
+  width: 80%;
+  height: auto;
+  padding: 5vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4862745098);
+  border-radius: 10px;
+}
+main .info .content h3 {
+  padding-bottom: 1vh;
+}
+main .info .content p {
+  padding-bottom: 5vh;
+  text-align: justify;
+}
+
+/*# sourceMappingURL=style.css.map */

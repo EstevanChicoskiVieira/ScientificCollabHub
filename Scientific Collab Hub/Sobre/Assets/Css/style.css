@@ -1,0 +1,145 @@
+@import url(../../../Assets/Css/global.css);
+header {
+  width: 100%;
+  height: 12vh;
+  box-shadow: 0px 6px 15px -12px #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vh 0 5vh;
+  position: fixed;
+  transition: height 0.3s ease-in-out;
+  z-index: 999999999;
+}
+header .links {
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .links a {
+  color: #000;
+  text-decoration: none;
+  position: relative;
+  transition: 0.2s ease-in-out;
+}
+header .links a::after {
+  content: " ";
+  width: 0%;
+  height: 1px;
+  background-color: #5186d4;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.2s ease-in-out;
+}
+header .links a:hover {
+  color: #5186d4;
+}
+header .links a:hover::after {
+  width: 100%;
+}
+
+.ativo {
+  width: 100%;
+  height: 10vh;
+  background: #ffffff;
+  box-shadow: 0px 6px 15px -12px #000000;
+  z-index: 999999;
+}
+
+main {
+  width: 100%;
+  padding-top: 12vh !important;
+}
+main .main-div1 {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1vh;
+}
+main .main-div1 h1 {
+  font-size: 32pt;
+}
+main .main-div1 p {
+  width: 400px;
+  text-align: center;
+}
+main .main-div2 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  padding: 0 10vh 0 10vh;
+}
+main .main-div2 .text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10vh 17vh 10vh 17vh;
+  text-align: justify;
+  gap: 1vh;
+}
+main .main-div2 .text h2 {
+  color: #5186d4;
+  font-size: 30pt;
+}
+main .main-div2 .text p {
+  font-size: 13pt;
+  color: #333333;
+}
+main .main-div2 .image {
+  width: 50%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+main .main-div3 {
+  width: 100%;
+  height: 35vh;
+  background: rgba(81, 133, 212, 0.2117647059);
+  display: flex;
+}
+main .main-div3 #div3 {
+  width: 33.3333333333%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh;
+  gap: 4vh;
+  color: #333333;
+}
+main .main-div3 #div3 p {
+  font-size: 13pt;
+  text-align: center;
+}
+main .main-div3 #div3 h3 {
+  color: #5186d4;
+  font-size: 20pt;
+  text-align: center;
+}
+main .main-div4 {
+  width: 100%;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  padding: 5vh 45vh 5vh 45vh;
+}
+main .main-div4 h2 {
+  color: #5186d4;
+  font-size: 32pt;
+  text-align: center;
+}
+main .main-div4 p {
+  color: #333333;
+  font-size: 15pt;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
