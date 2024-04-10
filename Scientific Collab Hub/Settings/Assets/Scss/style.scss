@@ -10,25 +10,55 @@ main {
         height: 92vh;
         display: grid;
         place-items: center;
-        background-color: blue;
 
         .content {
             width: 90%;
             height: 80%;
-            background-color: white;
             display: flex;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #0000007c;
 
             .menu {
                 width: 30%;
-                height: 100%;
-                background-color: red;
+                height: 70vh;
+                overflow: hidden;
+                overflow-y: scroll;
+                display: flex;
+                flex-direction: column;
+                gap: 1vh;
+
+                span {
+                    width: 100%;
+                    height: auto;
+                    padding: 1vh 0 1vh 1vh;
+                    display: flex;
+                    align-items: center;
+                    gap: 1vh;
+
+                    h4, p {
+                        font-size: 11pt;
+                    }
+                }
             }
 
             .content {
                 width: 70%;
-                height: 100%;
-                background-color: green;
+                height: 70vh;
+                overflow: hidden;
+                overflow-y: scroll;
             }
         }
     }
+}
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+    border: 0px;
+    border-radius: 3px;
 }
